@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TarkovTaskManager</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="dark">
+                <ion-title>
+                    TarkovTaskManager.io
+                </ion-title>
+            </ion-toolbar>
+        </ion-header>
+
+        <ion-list-header>
+            <ion-label>Menu Selection</ion-label>
+          </ion-list-header>
+          
+          <!-- List Header with Button -->
+          <ion-list-header>
+            <ion-label>Item Table</ion-label>
+            <ion-button>View</ion-button>
+          </ion-list-header>
+
+          <!-- List Header with Button -->
+          <ion-list-header>
+            <ion-label>Hideout Manager</ion-label>
+            <ion-button>View</ion-button>
+          </ion-list-header>
+
+          <!-- List Header with Button -->
+          <ion-list-header>
+            <ion-label>Task Manager</ion-label>
+            <ion-button>View</ion-button>
+          </ion-list-header>
+
+          <!-- List Header with Button -->
+          <ion-list-header>
+            <ion-label>Trader Menu</ion-label>
+            <ion-button>View</ion-button>
+          </ion-list-header>
+          
+          <!-- List Headers in Lists -->
+          <ion-list>
+            <ion-list-header lines="inset">
+              <ion-label>Recent</ion-label>
+              <ion-button>Clear</ion-button>
+            </ion-list-header>
+            <ion-item lines="none">
+              <ion-label color="primary">
+                <h1>Item Table</h1>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+    </ion-app>
+</body>
+</html>
